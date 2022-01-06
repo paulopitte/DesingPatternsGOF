@@ -13,8 +13,8 @@ namespace _01_Sample
         private static void Main()
         {
             Console.WriteLine("Adapter!");
-
             AdapterService.ExecutionOperation();
+            Console.ReadKey();
         }
 
 
