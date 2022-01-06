@@ -12,7 +12,7 @@ namespace _01_Sample
     {
         private static void Main()
         {
-            Console.WriteLine("Adapter!");
+            Console.WriteLine("Adapter sample 1!");
             AdapterService.ExecutionOperation();
             Console.ReadKey();
         }

@@ -5,7 +5,7 @@
         public static void ExecutionOperation()
         {
 
-            var logDefault = new TransactionService(new Logger());
+            TransactionService logDefault = new(new Logger());
             logDefault.StartTransaction();
 
             var logCuston = new TransactionService(new LoggerAdapter( new LoggerMasterService()));
