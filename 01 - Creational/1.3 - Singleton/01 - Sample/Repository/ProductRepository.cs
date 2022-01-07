@@ -9,7 +9,8 @@ namespace _01___Sample.Repository
         /*
          * Singleton
          * Padrão que garante a existência de apenas uma instância de um objeto em memória, mantendo um ponto único e global ao seu contexto.
-         * */
+         * 
+         */
 
         private readonly ICollection<Product> _products;
         private static ProductRepository _instance = null;
