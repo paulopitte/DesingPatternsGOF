@@ -13,7 +13,7 @@ namespace _01_Sample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Cadeia de responsabilidade!");
+            Console.WriteLine("Cadeia de responsabilidade sample 1!");
 
             Manipulador pA = new PersonagemA();
             Manipulador pB = new PersonagemB();
