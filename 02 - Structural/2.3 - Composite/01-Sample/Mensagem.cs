@@ -7,7 +7,8 @@ namespace _01_Sample
 {
     public class Mensagem : IMessage, IEnumerable<IMessage>
     {
-        private readonly List<IMessage> _lista = new List<IMessage>();
+        // lista de mensagens
+        private readonly List<IMessage> _lista = new();
 
         public string Nome { get; set; }
 

@@ -31,7 +31,9 @@
             var msgNivel3 = new Mensagem("Nivel 3");
             var msgNivel4 = new Mensagem("Nivel 4");
             var msgNivel5 = new Mensagem("Nivel 5");
+            var msgNivel6 = new Mensagem("Nivel 6");
 
+            msgNivel5.AdicionarFilha(msgNivel6);
             msgNivel4.AdicionarFilha(msgNivel5);
             msgNivel3.AdicionarFilha(msgNivel4);
             msgNivel2.AdicionarFilha(msgNivel3);
