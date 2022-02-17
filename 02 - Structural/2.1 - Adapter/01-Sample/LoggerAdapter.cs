@@ -2,7 +2,8 @@
 
 namespace _01_Sample
 {
-    // Adapter class -> adapta a interface Adaptee à interface de destino.
+    // Adapter class -> AQUI DE FATO É A IMPLEMENTAÇÃO DO PATTERN EM FIM,
+    // USANDO A INTERFACE ORIGINAL ILOGGE COM A ADAPTAÇÃO A INTERFACE ADAPTEE À INTERFACE DE DESTINO.
     
     public class LoggerAdapter : ILogger
     {
