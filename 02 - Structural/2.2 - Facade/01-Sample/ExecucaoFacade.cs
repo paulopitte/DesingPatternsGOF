@@ -5,6 +5,11 @@ namespace _01_Sample
 {
     public class ExecucaoFacade
     {
+        /*
+         * A IDEIA DO "FECADE" É TER UMA UNICA CLASS QUE SERVER COMO UM SISTEMA DE UMA PARTE DA APLICAÇÃO, 
+         * OU SEJA ELA É REPONSAVEL EM (INSTANCIAR, CONSUMIR, INTERPRETAR E ADAPTAR) OS SUBSISTEMAS REALIZANDO UMA TRADUÇÃO PARA AS CLASSES CLIENTE.
+         * 
+         */
         public static void Executar()
         {
             var produtos = new List<Produto>
