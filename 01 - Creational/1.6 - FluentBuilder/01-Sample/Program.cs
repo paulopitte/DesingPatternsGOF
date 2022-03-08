@@ -29,7 +29,18 @@ namespace _01_Sample
             WriteLine("*************************************");
             WriteLine();
 
+            var emailBuilder = new EmailBuilder();
 
+            var email = emailBuilder
+                       .To("microsoft@email.com")
+                       .From("paulopitte@gmail.com")
+                       .Subject("Micrsofot Build")
+                       .Body("Microsoft Build 2021\n\t25 a 27 de Maio 2021" +
+                                "\n\tNovidades Windows,Azure,Office e mais")
+                       .CriaEmail();
+
+            WriteLine(email.ToString());
+            ReadLine();
 
         }
     }
