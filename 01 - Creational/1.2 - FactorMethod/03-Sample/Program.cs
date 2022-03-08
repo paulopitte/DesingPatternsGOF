@@ -6,7 +6,7 @@ namespace _03_Sample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Exemplo 3 paar Factory Method!");
+            Console.WriteLine("Exemplo 3 para Factory Method!");
 
             ExecucaoFactoryMethod.Executar();
             Console.ReadKey();
