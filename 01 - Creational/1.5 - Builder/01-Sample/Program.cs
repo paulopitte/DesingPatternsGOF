@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01_Sample.Concrete;
+using System;
 using static System.Console;
 
 namespace _01_Sample
@@ -44,11 +45,32 @@ namespace _01_Sample
      * 
      * 
      * */
-    internal class Program
+     class Program
     {
         static void Main(string[] args)
         {
             WriteLine(" ****** Builder Sample 01 *******");
+            WriteLine("*************************************");
+            WriteLine();
+            // instancia o Director
+            var factor = new Factor();
+
+            // instancia do concreteBuilder
+            var notebookBuilder_Dell = new Notebook_DELL_Builder();
+
+            //cria objetos conforme a especificação do produto no builder 
+            factor.Build(notebookBuilder_Dell);
+
+
+            WriteLine("*************************************");
+            WriteLine();
+            var notebookBuilder_HP = new Notebook_HP_Builder();
+            factor.Build(notebookBuilder_HP);
+
+
+
+            ReadKey();
+
         }
     }
 }
