@@ -43,7 +43,15 @@ namespace _01_Sample
      * 
      * "Product" - Representa o objeto complexo em contrução. inclui classes que define as partes constituintes, incluindo interfaces para montar as partes no resultado final.
      * 
+     * OBS - 
+     * O AbstractFactory é usado para criar uma fábrica de fábricas,  
+     * No AbstractFactory o consumidor invoca os médotos Factory para criar os objetos.
      * 
+     * 
+     * No Builder a classe Builder cria um objeto dependendo das informações que recebe mas o processo de criação é abstraído.
+     * 
+     * O AbstractFactory  - é útil quando precisamos criar objetos usando vários métodos factory.
+     * O Builder - é útil quando precisamos criar um objeto complexo passo a passo.
      * */
      class Program
     {
