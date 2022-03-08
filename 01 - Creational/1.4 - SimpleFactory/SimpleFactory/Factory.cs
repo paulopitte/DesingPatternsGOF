@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SimpleFactory
 {
     internal class Factory
     {
+        // Coração do Pattern SimpleFactory
         public static AbstractClass Create(string name)
         {
             AbstractClass abstractClass;
@@ -22,7 +21,7 @@ namespace SimpleFactory
                     abstractClass.ToString();
                     break;
                 default:
-                    throw new ApplicationException($"A Implementação concreta para {name} não foi iplementada.");
+                    throw new ApplicationException($"A Implementação concreta para {name} não foi existe.");
             }
             return abstractClass;
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace _01_Sample
 {
-    // esse builder passa a sr um whapper
+    // esse builder passa a ser um whapper
     public class EmailBuilder
     {
         private readonly Email _email;
