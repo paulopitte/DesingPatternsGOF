@@ -30,7 +30,8 @@ namespace _01_Sample
             WriteLine();
 
             var emailBuilder = new EmailBuilder();
-
+            
+            // nesse ponto temos o Director conforme o padrao Builder
             var email = emailBuilder
                        .To("microsoft@email.com")
                        .From("paulopitte@gmail.com")
