@@ -52,6 +52,23 @@ namespace _01_Sample
      * 
      * O AbstractFactory  - é útil quando precisamos criar objetos usando vários métodos factory.
      * O Builder - é útil quando precisamos criar um objeto complexo passo a passo.
+     * 
+     * 
+     * 
+     * o padrão Factory pode ser visto como uma forma simplificada do padrão "Builder".
+     * 
+     * 
+     * 
+     * A diferenaça é bem sensivel,
+     * pensando em pizza.....,
+     * para "Fazer uma pizza" temos diferentes coberturas para cada tipo ou "sabor" exemplo - Mussarela - Calabresa - Marguerita, etc...
+     * 
+     * para escolha de uma pizza ou seja o sabor podemos usar o Factory
+     * 
+     * já para os igredientes ou seja como montar (Fazer) uma pizza exemplo de Baiana podemos usar o builder.
+     * cobertura - tomate, queijo, cebola, ovos,etc....
+     * 
+     * podemos concluir que o bulder podemos encapsular toda complexidade de negocio para um determinado produto. simples assim...
      * */
      class Program
     {
