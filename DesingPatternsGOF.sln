@@ -61,9 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Sample", "02 - Structura
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Sample", "01 - Creational\1.2 - FactorMethod\03-Sample\03-Sample.csproj", "{95BC651E-4E33-4BB7-926F-77D9C2556866}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 - Simple-Factory", "1.4 - Simple-Factory", "{407EDFCE-90E7-4C7F-B6FB-8BE4A78F798A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 - SimpleFactory", "1.4 - SimpleFactory", "{407EDFCE-90E7-4C7F-B6FB-8BE4A78F798A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "01 - Creational\SimpleFactory\SimpleFactory.csproj", "{CC829B91-3AC9-4F06-93A9-A70D00030272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "01 - Creational\SimpleFactory\SimpleFactory.csproj", "{CC829B91-3AC9-4F06-93A9-A70D00030272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
